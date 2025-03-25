@@ -1,0 +1,32 @@
+{
+    "name": "raraku-vscode",
+    "displayName": "Raraku Theme",
+    "description": "",
+    "version": "0.1.0",
+    "publisher": "mjlaufer",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mjlaufer/raraku-vscode"
+    },
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "keywords": ["theme"],
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Raraku",
+                "uiTheme": "vs-light",
+                "path": "./themes/raraku.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "node src/index.mjs"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4"
+    }
+}
