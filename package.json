@@ -18,7 +18,7 @@
         "themes": [
             {
                 "label": "Raraku",
-                "uiTheme": "vs-light",
+                "uiTheme": "vs",
                 "path": "./themes/raraku.json"
             }
         ]

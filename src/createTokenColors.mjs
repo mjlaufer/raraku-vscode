@@ -235,5 +235,21 @@ export default function (theme) {
                 foreground: theme.magenta,
             },
         },
+        {
+            name: 'Cursor Tab Completion',
+            scope: 'comment.block.completion',
+            settings: {
+                foreground: theme.fg3,
+                fontStyle: 'normal',
+            }
+        },
+        {
+            name: 'Cursor Tab Completion Active',
+            scope: 'comment.block.completion.active',
+            settings: {
+                foreground: theme.fg2,
+                fontStyle: 'normal',
+            }
+        }
     ];
 }

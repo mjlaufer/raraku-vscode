@@ -325,5 +325,10 @@ export default function (colors) {
         // "editor.snippetTabstopHighlightBorder": colors.fg1,
         // "editor.snippetFinalTabstopHighlightBackground": colors.fg1,
         // "editor.snippetFinalTabstopHighlightBorder": colors.fg1
+
+        // GitLens
+        'gitlens.gutterForegroundColor': colors.fg3,
+        'gitlens.gutterUncommittedForegroundColor': colors.fg3,
+        'gitlens.trailingLineForegroundColor': colors.fg3,
     };
 }
