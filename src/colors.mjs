@@ -1,30 +1,44 @@
 export default {
-    bg1: '#f3ead5',
-    bg2: '#eddfb8',
-    bg3: '#e4d3a6',
+    bg1: '#f4eddc',
+    bg2: '#eee5ce',
+    bg3: '#e4d9bd',
     fg1: '#353535',
     fg2: '#555555',
-    fg3: '#727272',
+    fg3: '#6d6d6d',
 
-    red: '#ca0005',
-    redBright: '#d1292b',
-    yellow: '#856300',
-    yellowBright: '#906d17',
-    green: '#147925',
-    greenBright: '#35813d',
-    cyan: '#007289',
-    cyanBright: '#387a8e',
-    blue: '#1667c3',
-    blueBright: '#2f71cc',
-    magenta: '#b32d6a',
-    magentaBright: '#be3a74',
-
-    orange: '#b44300',
-    purple: '#864eb5',
-
-    redDiff: '#ffbfbf',
-    greenDiff: '#c1eac4',
-    cyanDiff: '#aed8e9',
-    cyanDiffEmph: '#97cfe4',
-    blueDiff: '#c8d1ec',
+    red: {
+        normal: '#cd191c',
+        bright: '#de2c2e',
+        bg1: '#ffcacb',
+    },
+    orange: {
+        normal: '#be4000',
+    },
+    yellow: {
+        normal: '#a56200',
+        bright: '#b76d00',
+    },
+    green: {
+        normal: '#007a05',
+        bright: '#1c871f',
+        bg1: '#c8ecc8',
+    },
+    cyan: {
+        normal: '#007396',
+        bright: '#0081a7',
+        bg1: '#cae6f9',
+        bg2: '#b3daf3',
+    },
+    blue: {
+        normal: '#4c4bc5',
+        bright: '#5c5bc7',
+        bg1: '#dadaff',
+    },
+    purple: {
+        normal: '#9638b2',
+    },
+    magenta: {
+        normal: '#b3307c',
+        bright: '#cc357a',
+    },
 };
